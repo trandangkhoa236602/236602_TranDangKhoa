@@ -49,3 +49,11 @@ Khong dua file .env, mat khau hoac token len GitHub.
 ## Trien khai
 URL Render va Docker Hub se duoc cap nhat
 sau khi trien khai thanh cong.
+
+## Cau 2: MongoDB Atlas
+- Cluster: TrandangKhoa236602
+- Database: 236602_TranDangKhoa
+- Collection: foods
+- Du lieu mau: F001 Pho bo, F002 Bun bo Hue, F003 Com tam suon
+- So luong: 3 documents
+- Connection String: luu rieng trong backend/.env
