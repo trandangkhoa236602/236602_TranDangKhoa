@@ -71,3 +71,9 @@ sau khi trien khai thanh cong.
 - Build: docker build -t trandangkhoa236602/frontend:1.0 ./frontend
 - Container port: 10000
 - Backend API: BACKEND_UPSTREAM
+
+## Cau 7: Render Frontend
+- Service: web-236602
+- URL: https://web-236602.onrender.com
+- Docker Image: trandangkhoa236602/frontend:1.0
+- Backend API: se cau hinh sau khi trien khai Cau 8
