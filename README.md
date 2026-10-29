@@ -57,3 +57,10 @@ sau khi trien khai thanh cong.
 - Du lieu mau: F001 Pho bo, F002 Bun bo Hue, F003 Com tam suon
 - So luong: 3 documents
 - Connection String: luu rieng trong backend/.env
+
+## Cau 5: Docker Backend
+- Docker Image: trandangkhoa236602/backend:1.0
+- Docker Hub: https://hub.docker.com/r/trandangkhoa236602/backend
+- Build: docker build -t trandangkhoa236602/backend:1.0 ./backend
+- Run: docker run -p 5001:5000 --env-file backend/.env trandangkhoa236602/backend:1.0
+- API: /health va /api/foods
