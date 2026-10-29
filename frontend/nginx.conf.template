@@ -1,0 +1,19 @@
+server {
+    listen 10000;
+    server_name _;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    location /api/ {
+        proxy_pass ${BACKEND_UPSTREAM};
+        proxy_set_header Host $host;
+    }
+
+    location = /health {
+        proxy_pass ${BACKEND_UPSTREAM};
+    }
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

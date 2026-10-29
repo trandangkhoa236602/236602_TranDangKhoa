@@ -64,3 +64,10 @@ sau khi trien khai thanh cong.
 - Build: docker build -t trandangkhoa236602/backend:1.0 ./backend
 - Run: docker run -p 5001:5000 --env-file backend/.env trandangkhoa236602/backend:1.0
 - API: /health va /api/foods
+
+## Cau 6: Docker Frontend
+- Image: trandangkhoa236602/frontend:1.0
+- Docker Hub: https://hub.docker.com/r/trandangkhoa236602/frontend
+- Build: docker build -t trandangkhoa236602/frontend:1.0 ./frontend
+- Container port: 10000
+- Backend API: BACKEND_UPSTREAM
