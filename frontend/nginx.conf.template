@@ -3,10 +3,11 @@ server {
     server_name _;
     root /usr/share/nginx/html;
     index index.html;
+    proxy_ssl_server_name on;
 
     location /api/ {
         proxy_pass ${BACKEND_UPSTREAM};
-        proxy_set_header Host $host;
+        proxy_set_header Host $proxy_host;
     }
 
     location = /health {

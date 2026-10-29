@@ -77,3 +77,12 @@ sau khi trien khai thanh cong.
 - URL: https://web-236602.onrender.com
 - Docker Image: trandangkhoa236602/frontend:1.0
 - Backend API: se cau hinh sau khi trien khai Cau 8
+
+## Cau 8: Render Backend va ket noi Frontend
+- Backend: https://api-236602.onrender.com
+- Frontend: https://web-236602.onrender.com
+- Health API: https://api-236602.onrender.com/health
+- Foods API: https://api-236602.onrender.com/api/foods
+- MongoDB Atlas: 236602_TranDangKhoa
+- Da cau hinh BACKEND_UPSTREAM tren Render.
+- Da sua Nginx HTTPS proxy.
