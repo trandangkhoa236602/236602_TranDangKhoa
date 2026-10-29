@@ -86,3 +86,15 @@ sau khi trien khai thanh cong.
 - MongoDB Atlas: 236602_TranDangKhoa
 - Da cau hinh BACKEND_UPSTREAM tren Render.
 - Da sua Nginx HTTPS proxy.
+
+## Cau 9: Kiem tra tong the va thong tin nop bai
+- GitHub: https://github.com/trandangkhoa236602/236602_TranDangKhoa
+- Docker Backend: https://hub.docker.com/r/trandangkhoa236602/backend
+- Docker Frontend: https://hub.docker.com/r/trandangkhoa236602/frontend
+- Render Frontend: https://web-236602.onrender.com
+- Render Backend: https://api-236602.onrender.com
+- Health: https://api-236602.onrender.com/health
+- Foods API: https://api-236602.onrender.com/api/foods
+- MongoDB Cluster: TrandangKhoa236602
+- MongoDB Database: 236602_TranDangKhoa
+- Collection: foods
